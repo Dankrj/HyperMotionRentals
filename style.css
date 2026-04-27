@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000; /* Cor de fundo suave */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Evita barras de rolagem desnecessárias */
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+
+.centered-image {
+    max-width: 100%;  /* Garante que não ultrapasse a tela do celular */
+    height: auto;     /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Opcional: deixa as bordas arredondadas */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* Opcional: sombra leve */
+}
